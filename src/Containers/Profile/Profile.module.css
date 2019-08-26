@@ -1,0 +1,27 @@
+.Profile {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  display: flex;
+  background-color: #79f1ab;
+}
+
+.Profile > div{
+  width: 100%;
+}
+
+.Profile h1 {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.Content {
+  display: flex;
+  margin: auto;
+}
+
+.Profile Button {
+  position: absolute;
+  top: 150px;
+  right: 5%;
+}

@@ -1,0 +1,11 @@
+.Layout {
+  display: flex;
+  background-color: #9bfde8;
+}
+
+.Layout main {
+  display: flex;
+  width: 100vw;
+  height: 100%;
+}
+

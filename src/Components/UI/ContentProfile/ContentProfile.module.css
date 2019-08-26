@@ -1,0 +1,50 @@
+.ContentProfile {
+	margin: auto;
+}
+
+.ContentProfile ul {
+  list-style: none;
+  padding: 0;
+	margin: 0;
+	z-index: 1;
+}
+
+.ContentProfile li {
+	position: relative;
+	top: 3px;
+	display: inline-block;
+	margin: 0;
+	margin-right: 10px;
+	padding: 6px 12px;
+	list-style: none;
+	border: 2px dashed #ccc;
+	border-radius: 10px 10px 0 0;
+	border-bottom: none !important;
+	cursor: pointer;
+}
+
+.ContentProfile ul li {
+	display: inline-block;
+	z-index: 1;
+} 
+
+.ContentProfile li.active {
+	background-color: #fff;
+	border-style: solid; 
+}
+
+
+.text { display: none; }
+.ActiveDiv {
+  width: 60vw;
+  height: 500px;
+  margin: auto;
+	display: block;
+	padding: 20px;
+	min-height: 300px;
+	font-size: 20px;
+	font-family: Arial;
+  border: 2px solid #ccc;
+  background-color: #fff;
+}
+
