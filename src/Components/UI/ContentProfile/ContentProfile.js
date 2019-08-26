@@ -19,7 +19,7 @@ class ContentProfile extends Component {
   } 
 
   handleLiClick (index){
-    let activeIndex = this.state.activeIndex === index ? null : index;
+    let activeIndex = this.state.activeIndex === index ? this.state.activeIndex : index;
     this.setState({activeIndex});
   }
 
